@@ -43,7 +43,6 @@ class ProductCard extends StatelessWidget {
 
             SizedBox(width: 12),
 
-            // Nama & deskripsi produk
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -69,7 +68,6 @@ class ProductCard extends StatelessWidget {
               ),
             ),
 
-            // Harga & tombol Buy
             Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
