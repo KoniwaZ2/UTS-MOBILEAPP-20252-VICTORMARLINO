@@ -20,7 +20,7 @@ List<Product> mockProducts = [
   ),
   Product(
     id: 3,
-    productName: 'Headphones',
+    productName: 'Headphone',
     description: 'Noise-cancelling',
     price: 99.99,
   ),
