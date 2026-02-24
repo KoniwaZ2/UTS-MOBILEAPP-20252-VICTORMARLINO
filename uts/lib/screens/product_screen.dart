@@ -9,9 +9,8 @@ class ProductScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFFDF0F8),
       appBar: AppBar(
-        backgroundColor: Color(0xFF6B5B8E),
+        backgroundColor: Color.fromARGB(255, 129, 75, 130),
         title: Text(
           'Products',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),

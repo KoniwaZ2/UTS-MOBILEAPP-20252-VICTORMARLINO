@@ -12,25 +12,11 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color(0xFFF5F0FA),
       appBar: AppBar(
-        flexibleSpace: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.centerLeft,
-              end: Alignment.centerRight,
-              colors: [Color(0xFF6B5B8E), Color(0xFF7B8FE8)],
-            ),
-          ),
-        ),
-        backgroundColor: Colors.transparent,
-        elevation: 2,
+        backgroundColor: Color.fromARGB(255, 129, 75, 130),
         iconTheme: IconThemeData(color: Colors.white),
         title: Text(
           'Profile',
-          style: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.w600,
-            fontSize: 18,
-          ),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
         ),
       ),
 

@@ -7,7 +7,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF6B5B8E),
+        backgroundColor: Color.fromARGB(255, 129, 75, 130),
         title: Text(
           'Login',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.w600),
@@ -118,7 +118,7 @@ class LoginScreen extends StatelessWidget {
                             );
                           },
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Color(0xFF7A6B8A),
+                            backgroundColor: Color.fromARGB(255, 111, 87, 108),
                             foregroundColor: Colors.white,
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(10),
