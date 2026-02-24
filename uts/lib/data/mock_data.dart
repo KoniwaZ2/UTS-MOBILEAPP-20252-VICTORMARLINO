@@ -12,15 +12,10 @@ List<Product> mockProducts = [
     description: 'Confortable shoes',
     price: 49.99,
   ),
-  Product(
-    id: 2,
-    productName: 'T-Shirt',
-    description: 'Soft cotton',
-    price: 19.99,
-  ),
+  Product(id: 2, productName: 'Baju', description: 'Soft cotton', price: 19.99),
   Product(
     id: 3,
-    productName: 'Headphone',
+    productName: 'Headphones',
     description: 'Noise-cancelling',
     price: 99.99,
   ),
